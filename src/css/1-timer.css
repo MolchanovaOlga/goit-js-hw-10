@@ -74,5 +74,5 @@ button[data-start]:disabled {
 
 #datetime-picker:disabled {
     border-color: #808080;
-    color: #808080;;
+    color: #808080;
 }
