@@ -4,18 +4,22 @@
   | default @import url()
   |============================
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
 @import url('./reset.css');
 @import url('./header.css');
 @import url('./1-timer.css');
 @import url('./2-snackbar.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
+  line-height: 1.5;
 
-  color: #242424;
+  color: #2E2F42;;
   background-color: rgba(255, 255, 255, 0.87);
 
   font-synthesis: none;
@@ -23,4 +27,8 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+.link-to-home:hover {
+  color: #747bff;
 }
