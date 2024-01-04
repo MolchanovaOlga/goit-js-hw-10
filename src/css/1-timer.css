@@ -67,7 +67,7 @@ button[data-start]:disabled {
     border-color: #000;
 }
 
-#datetime-picker:active {
+#datetime-picker:focus {
     border-color: #4E75FF;
     color: #000;
 }
