@@ -3,7 +3,7 @@ import "flatpickr/dist/flatpickr.min.css";
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
 import "../img/icons/bi_x-octagon.svg";
-import "../img/icons/bi_x-lg.svg";
+
 
 const button = document.querySelector('button[data-start]');
 const input = document.querySelector('#datetime-picker');
