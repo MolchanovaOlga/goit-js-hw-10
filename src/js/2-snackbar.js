@@ -22,7 +22,7 @@ form.addEventListener('submit', event => {
             }
         }, delay);
     });
-    console.log(promise);
+   
     promise
         .then((value) => {
             iziToast.show({
