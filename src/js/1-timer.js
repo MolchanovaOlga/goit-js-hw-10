@@ -2,6 +2,8 @@ import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
+import "../img/icons/bi_x-octagon.svg";
+import "../img/icons/bi_x-lg.svg";
 
 const button = document.querySelector('button[data-start]');
 const input = document.querySelector('#datetime-picker');
@@ -44,7 +46,9 @@ function error() {
     message: "Please choose a date in the future.",
     position: "topRight",
     backgroundColor: "#EF4040",
-    //icon: 'octagon',
+    titleColor: '#fff',
+    messageColor: '#fff',
+    iconUrl: '../img/icons/bi_x-octagon.svg',
   });
 }
 
