@@ -2,7 +2,7 @@ import flatpickr from "flatpickr";
 import "flatpickr/dist/flatpickr.min.css";
 import iziToast from "izitoast";
 import "izitoast/dist/css/iziToast.min.css";
-import "../img/icons/bi_x-octagon.svg";
+import icon from "../img/icons/bi_x-octagon.svg";
 
 
 const button = document.querySelector('button[data-start]');
@@ -48,7 +48,7 @@ function error() {
     backgroundColor: "#EF4040",
     titleColor: '#fff',
     messageColor: '#fff',
-    iconUrl: '../img/icons/bi_x-octagon.svg',
+    iconUrl: icon,
   });
 }
 
